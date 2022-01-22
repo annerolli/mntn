@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Falcon Sport;
+    src: local('Falcon Sport One'), local('Falcon-Sport-One'),
+        url('../accept/fonts/FalconSportOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url('../accept/fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
