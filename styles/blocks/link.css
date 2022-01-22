@@ -1,0 +1,40 @@
+.link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: Gilroy, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.link--mode-primary,
+.link--mode-primary:visited {
+    color: #FBD784;
+}
+
+.link--mode-secondary,
+.link--mode-secondary:visited {
+    color: #fff;
+}
+
+.link--mode-secondary:hover {
+    color: #FBD784;
+}
+
+.link--weight-medium {
+    font-weight: 500;
+}
+
+.link__after,
+.link__before {
+    display: flex;
+}
+
+.link__after {
+    order: 2;
+    padding-left: 16px;
+}
+
+.link__before {
+    padding-right: 8px;
+}

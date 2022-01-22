@@ -1,2 +1,6 @@
 @import url('./fonts.css');
 @import url('./common.css');
+
+/* Blocks */
+
+@import url('./blocks/link.css');
