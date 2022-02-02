@@ -1,0 +1,97 @@
+.footer__container {
+    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.footer__logo + .footer__info, 
+.footer__info +.footer__contact {
+    padding-top: 20px;
+}
+
+.footer__left + .footer__right {
+    padding-top: 50px;
+}
+
+.footer__autor:visited {
+    color: rgba(251, 215, 132, 0.5);
+}
+
+.footer__link:visited {
+    color: #fff;
+}
+
+.title + .footer__list {
+    padding-top: 15px;
+}
+
+
+.footer__item:last-child {
+    margin-bottom: none;
+}
+
+.footer__center {
+    display: none;
+}
+
+.footer__info {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.footer__person,
+.footer__aboutOrganization {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__autor {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    color: rgba(251, 215, 132, 0.5);
+}
+
+.footer__list {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    display: block;
+    padding: 5px 0;
+}
+
+
+@media (min-width: 700px) {
+    .footer__info + .footer__contact {
+        padding-top: 90px;
+    }
+    .footer__container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .footer__left + .footer__right {
+        padding-top: 0;
+    }
+
+    .footer__left {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer__center {
+        display: block;
+    }
+}
