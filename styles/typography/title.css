@@ -1,0 +1,44 @@
+h1.title {
+    font-family: 'Falcon Sport', serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+h2.title {
+    font-family: 'Falcon Sport', serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+h3.title {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FBD784;
+}
+
+
+@media (min-width: 479px) {
+    h1.title {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1.title {
+        font-size: 65px;
+    }
+}
+@media (min-width: 1000px) {
+    h1.title {
+        font-size: 75px;
+    }
+
+    h2.title {
+        font-size: 58px;
+    } 
+}
