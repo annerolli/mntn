@@ -1,0 +1,38 @@
+.hero {
+    height: 120vh;
+    background:
+        linear-gradient(330.24deg, rgba(11, 29, 38, 0) 40%, #0B1D26 108.93%),
+        linear-gradient(180deg, rgba(11, 29, 38, 0) 65%, rgba(11, 29, 38, 1) 100%),
+        url(/assets/image/VG.png) -100px 400px scroll,
+        url(/assets/image/MG.png) 0 400px fixed,
+        url(/assets/image/HG.png) scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__header {
+    padding-top: 40px;
+    padding-left:  24px;
+    padding-right:  24px;
+}
+
+.hero__content {
+    max-width: 350px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+@media (min-width: 479px) {
+    .hero__content {
+        max-width: 590px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero__content {
+        padding-top: 150px;
+        max-width: 790px;
+    }
+}
