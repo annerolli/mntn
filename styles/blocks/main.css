@@ -1,0 +1,10 @@
+.main__articles {
+    counter-reset: number;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+}
