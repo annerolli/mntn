@@ -4,8 +4,8 @@
         linear-gradient(330.24deg, rgba(11, 29, 38, 0) 40%, #0B1D26 108.93%),
         linear-gradient(180deg, rgba(11, 29, 38, 0) 65%, rgba(11, 29, 38, 1) 100%),
         url(/assets/image/VG.png) -100px 400px scroll,
-        url(/assets/image/MG.png) 0 400px fixed,
-        url(/assets/image/HG.png) scroll;
+        url(/assets/image/MG.png) 0 300px scroll,
+        url(/assets/image/HG.png) fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
