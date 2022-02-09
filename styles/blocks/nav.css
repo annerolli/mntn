@@ -5,4 +5,9 @@
 
 .nav__item a{
     padding: 10px 20px;
+    transition: transform 1s;
+}
+
+.nav__item a:hover {
+    transform: translateY(-5px);
 }
