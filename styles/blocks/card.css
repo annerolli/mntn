@@ -20,6 +20,9 @@
     z-index: -1;
 }
 
+.card__text .indent__link:hover {
+    transform: translateX(10px);
+}
 
 .card:last-child {
     margin-bottom: 0;
