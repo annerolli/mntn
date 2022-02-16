@@ -1,9 +1,7 @@
 .card {
     display: flex;
-    justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
-    margin-bottom: 150px;
 }
 
 .card__text::before {
@@ -24,9 +22,10 @@
     transform: translateX(10px);
 }
 
-.card:last-child {
-    margin-bottom: 0;
+.card__text .indent__link {
+    transition: transform 1s;
 }
+
 .card__text {
     position: relative;
     padding-top: 60px;
@@ -34,14 +33,14 @@
 }
 
 .card__image {
-    display: inline-block;
+    display: block;
     flex-shrink: 0;
+    max-width: 100%;
 }
 
 @media (min-width: 1000px) {
     .card {
         flex-direction: row;
-        justify-content: space-around;
     }
 
     .card--reverse {
