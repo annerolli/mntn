@@ -6,3 +6,7 @@
     padding-left: 24px;
     padding-right: 24px;
 }
+
+.main__card:not(:last-child) {
+    margin-bottom: 150px;
+}
